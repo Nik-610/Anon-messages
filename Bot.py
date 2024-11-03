@@ -3,7 +3,7 @@ from telebot import types
 import json
 
 # Токен вашего бота
-TOKEN = '6741254347:AAFSvWNGetSfdjE68h0eMym5edDi0lZQECU'
+TOKEN = ''
 # Ваш Telegram ID
 ADMIN_TELEGRAM_ID = '5614647931'
 # Файлы для хранения данных
