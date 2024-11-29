@@ -46,7 +46,7 @@ user_ids = load_user_ids()
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     hello = ("Добро пожаловать! Напишите ID пользователя кому бы вы хотели отправить анонимное сообщение. Узнать ID [тут](https://t.me/getmy_idbot/)",
-             'Лучший ванильный ReDrak(@ReDarkserv)')
+             'Лучший ванильный сервер ReDrak(@ReDarkserv)')
     bot.send_message(message.chat.id, hello, parse_mode='Markdown')
     bot.register_next_step_handler(message, handle_message)
 
